@@ -66,7 +66,6 @@ while True:
             break
         continue
 
-    # taxi, passenger
     class_num = [0, 0]
     classes, scores, boxes = model.detect(frame, Conf_threshold, NMS_threshold)
     for (classid, score, box) in zip(classes, scores, boxes):
