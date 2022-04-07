@@ -1,15 +1,15 @@
 # yolov4-opencv-python
   
 git cloned from : https://github.com/Asadullah-Dal17/yolov4-opencv-python
-  
+   
 ```bash
 python yolov4.py --videoFile video --weights .weights --cfg .config --classTxt classes.txt --output outputVideo --outputFps fps --codec codec
 ```
   
 ## demo
 ```bash
-python yolov4.py
-python yolov4.py --output 2.avi
+python yolov4.py --videoFile input.avi
+python yolov4.py --videoFile input.mp4 --output 2.avi
 ```
   
 ## flag  
